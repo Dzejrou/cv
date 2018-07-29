@@ -1,5 +1,5 @@
 \documentclass[8pt]{article}
-\usepackage[margin=2cm]{geometry}
+\usepackage[top=0.8cm,left=1.8cm,right=2cm,bottom=1cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{scalerel}
@@ -20,8 +20,8 @@
 \renewcommand\labelitemii{$\bullet$}
 \pagenumbering{gobble}
 
-\title{\bfseries\Huge Jaroslav Jindrák}
-\author{dzejrou@gmail.com \bt 777 310 065 \bt \url{https://github.com/dzejrou}}
+\title{\bfseries Jaroslav Jindrák}
+\author{dzejrou@gmail.com \bt 777 310 065 \bt \url{https://github.com/dzejrou} \\ Prague-based programmer \bt 26 years old}
 \date{}
 
 \begin{document}
@@ -50,31 +50,34 @@
     \end{tabular}
 
     \section*{Interests}
-    OSdev \bt emulators \bt compilers \bt virtualization \\
-    modern \cpp \bt OSS \bt template metaprogramming \\
-    programming languages and their interoperability
+    OSdev \bt emulators \bt compilers \bt virtualization\\
+    modern \cpp \bt OSS \bt template metaprogramming\\
+    programming languages and their interoperability\\
+    instrumentation \bt interpreters \bt best practices\\
 \end{minipage}%
 \hfill\fbox{%
     \begin{minipage}[t]{0.35\textwidth}
         \centering
 
-        \subsubsection*{Advanced Languages}
-        \cpp \bt Lua
+        \subsection*{Skills}
 
-        \subsubsection*{Intermediate Languages}
+        \subsubsection*{Advanced Proficiency}
+        \cpp 11/14/17 \bt Lua
+
+        \subsubsection*{Intermediate Proficiency}
         C \bt Rust \bt \csharp \xspace \bt \LaTeX
 
-        \subsubsection*{Basic Languages}
+        \subsubsection*{Basic Proficiency}
         Ruby \bt Python \bt Java \bt Haskell
         Scala \bt Groovy \bt Shell \bt R
 
-        \subsubsection*{Operating Systems}
-        Linux-based \bt FreeBSD \\
-        Windows \bt HelenOS
+        \subsubsection*{Other}
+        Linux \bt FreeBSD \bt Windows\\
+        gdb \bt valgrind \bt git \bt pin\\
+        doxygen \bt qemu \bt VS2015
 
-        \subsubsection*{Tools}
-        gdb \bt valgrind \bt doxygen \bt git
-        bazaar \bt scan-build \bt qemu ...
+        \subsubsection*{Languages}
+        native Czech \bt fluent English
     \end{minipage}%
 }
 
@@ -84,7 +87,7 @@
 \begin{minipage}[t]{0.45\textwidth}
     \centering
 
-    \subsection*{[C, \cpp] HelenOS \cpp}
+    \subsubsection*{[\cpp, C] HelenOS \cpp}
     \begin{itemize}
         \item \url{https://github.com/helenos/helenos}
         \begin{itemize}
@@ -92,26 +95,28 @@
         \end{itemize}
         \item Master thesis, over 50,000 lines of code
         \item \cpp14 runtime and standard library
+        \begin{itemize}
+            \item Written in modern \cpp17
+        \end{itemize}
     \end{itemize}
 
-    \subsection*{[Rust] dzemu}
+    \subsubsection*{[Rust] dzemu}
     \begin{itemize}
         \item \url{https://github.com/dzejrou/dzemu}
         \item MCS6502 emulator, (dis)assembler
     \end{itemize}
 
-    \subsection*{[\cpp, Lua] TDT}
+    \subsubsection*{[\csharp] TreeShare}
     \begin{itemize}
-        \item \url{https://github.com/dzejrou/tdt}
-        \item Bachelor thesis, over 34,000 lines of code
-        \item Modifiable and performant game engine
+        \item \url{https://github.com/dzejrou/TreeShare}
+        \item File sharing server-client program
     \end{itemize}
 \end{minipage}%
 \hfill
 \begin{minipage}[t]{0.45\textwidth}
     \centering
 
-    \subsection*{[C] HelenOS USB3}
+    \subsubsection*{[C] HelenOS USB3}
     \begin{itemize}
         \item \url{https://github.com/helenos/helenos}
         \begin{itemize}
@@ -124,13 +129,14 @@
         \end{itemize}
     \end{itemize}
 
-    \subsection*{[\csharp] TreeShare}
+    \subsubsection*{[\cpp, Lua] TDT}
     \begin{itemize}
-        \item \url{https://github.com/dzejrou/TreeShare}
-        \item File sharing server-client program
+        \item \url{https://github.com/dzejrou/tdt}
+        \item Bachelor thesis, over 34,000 lines of code
+        \item Modifiable and performant game engine
     \end{itemize}
 
-    \subsection*{[\LaTeX] This CV}
+    \subsubsection*{[\LaTeX] This CV}
     \begin{itemize}
         \item \url{https://github.com/dzejrou/cv}
     \end{itemize}
